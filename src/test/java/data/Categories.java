@@ -1,9 +1,9 @@
 package data;
 
 public enum Categories {
-    clothers("Одежда"),
-    technique("Бытовая техника"),
-    shoes("Обувь");
+    CLOTHES("Одежда"),
+    TECHNIQUE("Бытовая техника"),
+    SHOES("Обувь");
 
     public final String description;
 

@@ -55,16 +55,16 @@ public class MagnitMenuTest {
     static Stream<Arguments> checkCaterogiesItem() {
         return Stream.of(
                 Arguments.of(
-                        Categories.clothers,
+                        Categories.CLOTHES,
                         List.of("Женская одежда", "Мужская одежда", "Спецодежда", "Детская одежда")
                 ),
                 Arguments.of(
-                        Categories.technique,
+                        Categories.TECHNIQUE,
                         List.of("Климатическая техника", "Крупная бытовая техника", "Прочие аксессуары и запчасти для бытовой техники",
                                 "Техника для дома", "Техника для красоты и здоровья", "Техника для кухни")
                 ),
                 Arguments.of(
-                        Categories.shoes,
+                        Categories.SHOES,
                         List.of("Женская обувь", "Мужская обувь", "Обувь для девочек", "Обувь для мальчиков", "Аксессуары для обуви", "Специализированная обувь")
                 )
         );
